@@ -11,21 +11,17 @@ mysql -uroot -p
 ```
 
 <details>
-  <summary> ## MYSQL의 구조 </summary>
+  <summary>  MYSQL의 구조 </summary>
 
-## 2021.08.12 ~ 2021.08.22
-`표 < 데이터베이스(스키마) < 데이터베이스 서버`
+## `표 < 데이터베이스(스키마) < 데이터베이스 서버`
+
 **MySQL** : 데이터베이스 서버
   
   
 </details>
 
 <details>
-  <summary> ## 서버접속 </summary>
-
-## 2021.08.12 ~ 2021.08.22
-`표 < 데이터베이스(스키마) < 데이터베이스 서버`
-**MySQL** : 데이터베이스 서버
+  <summary> 서버접속 </summary>
   
 ```
 mysql -uroot -p
