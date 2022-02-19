@@ -34,3 +34,16 @@ mysql -uroot -p
   - `-p` : 비밀번호입력(-p1234와 같이 바로 입력도 가능, but 보안성때문에X) 
   - `내 비밀번호 : 동생생일` 
 </details>
+
+
+<details>
+  <summary> 스키마의 사용 </summary>
+  
+```
+  CREATE DATABASE opentutorials;   // 데이터 생성
+  DROP DATABSE opentutorials;    // 데이터 삭제
+  SHOW DATABASES;    // 데이터 출력
+  USE opentutorials;  // 스키마에 있는 표를 대상으로 명령어 사용
+```
+
+</details>
