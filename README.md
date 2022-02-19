@@ -1,8 +1,8 @@
 ## 🌵 MySql Study
 -------------------------
 <br>
-공부 경로 : [생활코딩-MySQL](https://www.youtube.com/watch?v=IWEa4DN_1Yk&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=8)
-###  📌 cmd 실행 방법
+공부 경로 : [생활코딩-MySQL](https://www.youtube.com/watch?v=x06B6UkitcM&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=10)
+### 📌 cmd 실행 방법
 
 ```
 C:\Bitnami\wampstack-8.1.2-0
