@@ -1,7 +1,7 @@
-## 🌵 MySql Study
+## 🌵 MyS Study
 -------------------------
 <br>
-공부 경로 : [생활코딩MySQL] (https://www.youtube.com/watch?v=x06B6UkitcM&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=10)
+공부 경로 : [생활코딩MySQL](https://www.youtube.com/watch?v=x06B6UkitcM&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=10)
 
 ### 📌 cmd 실행 방법
 
