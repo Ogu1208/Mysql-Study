@@ -2,6 +2,7 @@
 -------------------------
 <br>
 공부 경로 : [생활코딩MySQL](https://www.youtube.com/watch?v=x06B6UkitcM&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=10)
+[네이버 바로가기](http://www.naver.com/)
 
 ### 📌 cmd 실행 방법
 
