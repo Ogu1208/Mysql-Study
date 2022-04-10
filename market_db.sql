@@ -11,7 +11,7 @@ CREATE TABLE member -- 회원 테이블
   phone2		CHAR(8), -- 연락처의 나머지 전화번호(하이픈제외)
   height    	SMALLINT,  -- 평균 키
   debut_date	DATE  -- 데뷔 일자
-);membermember
+);
 CREATE TABLE buy -- 구매 테이블
 (  num 		INT AUTO_INCREMENT NOT NULL PRIMARY KEY, -- 순번(PK)
    mem_id  	CHAR(8) NOT NULL, -- 아이디(FK)
