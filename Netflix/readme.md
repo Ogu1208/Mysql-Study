@@ -182,4 +182,50 @@ FROM movie
     ON movie.movie_idx = actor_participate.movie_idx
 WHERE actor_idx = (SELECT actor_idx FROM actor WHERE name = "키라 나이틀리");
 
+
+# 크리에이터 검색 - 김은숙
+SELECT title            AS "시리즈 제목",
+       poster_url       AS "포스터 이미지"
+FROM series
+    INNER JOIN creater_participate
+    ON series.series_idx = creater_participate.series_idx
+WHERE creater_id = (SELECT creater_id FROM creater WHERE name = "김은숙");
+
+
+# 각본 검색 - 최동훈
+SELECT title            AS "영화 제목",
+       poster_url       AS "포스터 이미지"
+FROM movie
+    INNER JOIN writer_participate
+    ON movie.movie_idx = writer_participate.movie_idx
+WHERE writer_idx = (SELECT writer_idx FROM writer WHERE name = "최동훈");
+
+# 알림 - profile_idx=1
+SELECT title            AS "알림 제목",
+       content          AS "알림 내용",
+       alarm_img_url    AS "알람 이미지",
+       case
+            when timestampdiff(hour, alarm.createdAt, CURRENT_TIMESTAMP) < 24
+                then concat(timestampdiff(hour, alarm.createdAt, CURRENT_TIMESTAMP), '시간 전')
+                else date_format(alarm.createdAt, '%m월 %d일')
+        end AS "알람 날짜"
+FROM alarm
+WHERE alarm.status = 1
+ORDER BY alarm.createdAt DESC;
+
+
+# 프로필 설정
+SELECT name       AS "프로필 닉네임",
+        `PIN lock`()
+
+FROM profile
+#    INNER JOIN profile_Image
+ #   ON movie.movie_idx = writer_participate.movie_idx
+WHERE account_idx = 1
+
+SELECT `PIN lock`,
+        IFNULL (`PIN lock`)
+
 ```
+
+
